@@ -1,8 +1,8 @@
-```
+```bash
 sudo ./vlan_tool.sh -i eth0 -s
 ```
 
-```
+```bash
 Usage: $(basename "$0") [-i INTERFACE] [-f VLAN_FILE] [-r] [-s] [-n] [-h]
   -i, --interface   Parent NIC (default: eth0)
   -f, --file        Path to VLAN definition file
