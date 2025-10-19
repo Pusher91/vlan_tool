@@ -18,7 +18,7 @@ Usage: $(basename "$0") [-i INTERFACE] [-f VLAN_FILE] [-r] [-s] [-n] [-h]
   -n, --dry-run     Print actions without applying changes
   -h, --help        Show this help
 
-VLAN file format (one entry per line; '#' starts a comment):
+-f VLAN file format (one entry per line; '#' starts a comment):
   <vlan_id> <ip/cidr>
   <vlan_id> <ip> <prefixlen>
 
